@@ -30,3 +30,16 @@ go.work.sum
 # Editor/IDE
 # .idea/
 # .vscode/
+
+# Compiled ROM file
+*.gb
+# Save file
+*.sav
+
+# Log files
+*.log
+
+tmp/
+testdata/
+
+gbh

@@ -1,0 +1,65 @@
+package register
+
+// Hardware register addresses
+const (
+	P1JOYP   uint16 = 0xFF00
+	SB       uint16 = 0xFF01
+	SC       uint16 = 0xFF02
+	DIV      uint16 = 0xFF04
+	TIMA     uint16 = 0xFF05
+	TMA      uint16 = 0xFF06
+	TAC      uint16 = 0xFF07
+	IF       uint16 = 0xFF0F
+	NR10     uint16 = 0xFF10
+	NR11     uint16 = 0xFF11
+	NR12     uint16 = 0xFF12
+	NR13     uint16 = 0xFF13
+	NR14     uint16 = 0xFF14
+	NR21     uint16 = 0xFF16
+	NR22     uint16 = 0xFF17
+	NR23     uint16 = 0xFF18
+	NR24     uint16 = 0xFF19
+	NR30     uint16 = 0xFF1A
+	NR31     uint16 = 0xFF1B
+	NR32     uint16 = 0xFF1C
+	NR33     uint16 = 0xFF1D
+	NR34     uint16 = 0xFF1E
+	NR41     uint16 = 0xFF20
+	NR42     uint16 = 0xFF21
+	NR43     uint16 = 0xFF22
+	NR44     uint16 = 0xFF23
+	NR50     uint16 = 0xFF24
+	NR51     uint16 = 0xFF25
+	NR52     uint16 = 0xFF26
+	LCDC     uint16 = 0xFF40
+	STAT     uint16 = 0xFF41
+	SCY      uint16 = 0xFF42
+	SCX      uint16 = 0xFF43
+	LY       uint16 = 0xFF44
+	LYC      uint16 = 0xFF45
+	DMA      uint16 = 0xFF46
+	BGP      uint16 = 0xFF47
+	OBP0     uint16 = 0xFF48
+	OBP1     uint16 = 0xFF49
+	WY       uint16 = 0xFF4A
+	WX       uint16 = 0xFF4B
+	KEY0SYS  uint16 = 0xFF4C
+	KEY1SPD  uint16 = 0xFF4D
+	VBK      uint16 = 0xFF4F
+	BANK     uint16 = 0xFF50
+	HDMA1    uint16 = 0xFF51
+	HDMA2    uint16 = 0xFF52
+	HDMA3    uint16 = 0xFF53
+	HDMA4    uint16 = 0xFF54
+	HDMA5    uint16 = 0xFF55
+	RP       uint16 = 0xFF56
+	GCPSBGPI uint16 = 0xFF68
+	BCPDBGPD uint16 = 0xFF69
+	OCPSOBPI uint16 = 0xFF6A
+	OCPDOBPD uint16 = 0xFF6B
+	OPRI     uint16 = 0xFF6C
+	SVBKWBK  uint16 = 0xFF70
+	PCM12    uint16 = 0xFF76
+	PCM34    uint16 = 0xFF77
+	IE       uint16 = 0xFFFF
+)
